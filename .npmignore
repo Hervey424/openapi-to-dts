@@ -1,0 +1,12 @@
+# codes
+src/**/*.ts
+
+# for npm
+node_modules/
+package-lock.json
+
+# misc
+example/
+tsconfig.json
+.prettierrc.js
+README.md

@@ -1,0 +1,42 @@
+{
+  "name": "openapi2dts",
+  "version": "0.0.1",
+  "description": "OpenApi to Generates TypeScript definition file(d.ts)",
+  "bin": {
+    "oas2dts": "./bin/openapi2dts"
+  },
+  "keywords": [
+    "typescript",
+    "openapi",
+    "oas3",
+    "swagger",
+    "json",
+    "yaml",
+    "d.ts"
+  ],
+  "main": "./dist/index",
+  "scripts": {
+    "dev": "ts-node ./src/cli.ts",
+    "clean": "rimraf ./dist/",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hervey424/openapi-to-dts.git"
+  },
+  "author": "hervey424",
+  "license": "ISC",
+  "dependencies": {
+    "@types/js-yaml": "^3.12.5",
+    "@types/node": "^14.11.2",
+    "@types/superagent": "^4.1.10",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "js-yaml": "^3.14.0",
+    "openapi3-ts": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "superagent": "^6.1.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
