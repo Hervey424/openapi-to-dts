@@ -1,4 +1,4 @@
-# oas2dts
+# openapi2dts
 
 ---
 
@@ -9,13 +9,13 @@ Generates TypeScript definition file(d.ts) from OpenApi3
 ## Install
 
 ```
-$ npm install oas2dts
+$ npm install -g openapi2dts
 ```
 
 ## Usage
 
 ```
-  Usage: oas2dts -i [input] -o [output] -ns [namespace]
+  Usage: openapi2dts -i [input] -o [output] -ns [namespace]
 
   Options:
 
@@ -27,5 +27,5 @@ $ npm install oas2dts
 ### Example
 
 ```
-$ oas2dts -i swagger.json -o swagger.d.ts --ns API
+$ openapi2dts -i swagger.json -o swagger.d.ts --ns API
 ```
