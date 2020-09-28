@@ -1,5 +1,5 @@
 import program from 'commander';
-import convert from './converter';
+import { convert } from './converter';
 import fs from 'fs';
 import chalk from 'chalk';
 

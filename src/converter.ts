@@ -72,7 +72,7 @@ export const generatorModel = (name: string, metadata: SchemaObject) => {
   `;
 };
 
-export default async (path: string, namespace: string) => {
+export const convert = async (path: string, namespace: string) => {
   const text = await readContent(path);
   if (!text) return;
 
